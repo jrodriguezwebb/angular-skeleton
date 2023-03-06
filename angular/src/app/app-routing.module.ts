@@ -5,6 +5,7 @@ import { TranslationLoaderResolver } from './core/services/translation-loader.re
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'home', loadChildren: './+home/home.module#HomeModule', resolve: { trans: TranslationLoaderResolver  } },
+  { path: 'feature1', loadChildren: './feature1/feature1.module#Feature1Module' }
 ];
 
 @NgModule({
