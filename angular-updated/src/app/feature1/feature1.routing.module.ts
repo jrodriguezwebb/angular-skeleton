@@ -5,7 +5,7 @@ import { SubfeatureComponent } from './subfeature/subfeature.component';
 
 const routes: Routes = [
   {
-    path: 'feature1',
+    path: '',
     component: Feature1Component,
     children: [
       {
