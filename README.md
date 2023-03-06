@@ -1,2 +1,3 @@
-# angular6skeleton
-Skeleton base for start any project 
+# angular-skeleton
+
+Skeleton base for start any project
